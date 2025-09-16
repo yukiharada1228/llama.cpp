@@ -888,6 +888,9 @@ class TextModel(ModelBase):
         if chkhsh == "a1e163ecab2e718a4c829d1148b6e86824ec36163bb71941c3dca9cd5ac25756":
             # ref: https://huggingface.co/JetBrains/Mellum-4b-base
             res = "mellum"
+        if chkhsh == "6f3412ecd7d960ac36cc82ed1b97a7bbaa0e7465b091527b6afe7e1197f17f8d":
+            # ref: https://huggingface.co/llm-jp/llm-jp-3.1-1.8b-instruct4
+            res = "llm-jp-3.1-1.8b-instruct4"
 
         if res is None:
             logger.warning("\n")
